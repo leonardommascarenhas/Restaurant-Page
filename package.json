@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardommascarenhas/Restaurant-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardommascarenhas/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/leonardommascarenhas/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
