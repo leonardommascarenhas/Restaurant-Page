@@ -32,7 +32,7 @@ header h1 {
   font-size: 9rem;
 }
 
-header a {
+header button {
   font-family: "Tangerine", cursive;
   font-weight: bold;
   font-size: 3rem;
@@ -72,12 +72,19 @@ footer {
   align-items: center;
   gap: 60px;
 }
-.menu-items a {
-  margin-right: 30px;
-}
-
 .home-img {
   width: 400px;
   height: 400px;
   border-radius: 50%;
+}
+.recipes {
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.homeContainer {
+  transition: 1s;
 }

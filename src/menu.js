@@ -1,5 +1,7 @@
 export default function createMenu(append) {
+  append.innerHTML = "";
   let menuContainer = document.createElement("div");
+  menuContainer.classList.add("recipes");
   let menu = document.createElement("div");
   menu.classList.add("menu");
   let menuItem1 = document.createElement("div");
