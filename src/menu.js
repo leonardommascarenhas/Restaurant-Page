@@ -2,42 +2,12 @@ export default function createMenu(append) {
   append.innerHTML = "";
   let menuContainer = document.createElement("div");
   menuContainer.classList.add("menu-container");
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/whisky.png",
-    "Whisky",
-    "A delicious whisky with a touch of spice"
-  );
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/grapes.png",
-    "Wine Keg",
-    "A giant keg of wine with a touch of spice"
-  );
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/vodka.png",
-    "Vodka",
-    "A bottle of vodka with a touch of spice"
-  );
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/beer.png",
-    "Beer",
-    "A bottle of beer with a touch of spice"
-  );
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/martini.png",
-    "Martini",
-    "A bottle of martini with a touch of spice"
-  );
-  createMenuItem(
-    menuContainer,
-    "../dist/img/menu/softdrinks.png",
-    "Soda",
-    "A delicious soda with a touch of spice"
-  );
+  createMenuItem(menuContainer, "../dist/img/menu/whisky.png", "Whisky", "A delicious whisky with a touch of spice");
+  createMenuItem(menuContainer, "../dist/img/menu/grapes.png", "Wine Keg", "A giant keg of wine with a touch of spice");
+  createMenuItem(menuContainer, "../dist/img/menu/vodka.png", "Vodka", "A bottle of vodka with a touch of spice");
+  createMenuItem(menuContainer, "../dist/img/menu/beer.png", "Beer", "A bottle of beer with a touch of spice");
+  createMenuItem(menuContainer, "../dist/img/menu/martini.png", "Martini", "A bottle of martini with a touch of spice");
+  createMenuItem(menuContainer, "../dist/img/menu/softdrinks.png", "Soda", "A delicious soda with a touch of spice");
   append.appendChild(menuContainer);
 }
 
