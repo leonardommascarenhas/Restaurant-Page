@@ -2,8 +2,8 @@ export default function createContacts(append) {
   append.innerHTML = "";
   let contactsContainer = document.createElement("div");
   contactsContainer.classList.add("contacts-container");
-  createContact(contactsContainer, "../dist/img/contacts/telephone.png", "Phone: +351 923 123 456");
-  createContact(contactsContainer, "../dist/img/contacts/email.png", "extremamenteReal@realissimomail.com");
+  createContact(contactsContainer, "../docs/img/contacts/telephone.png", "Phone: +351 923 123 456");
+  createContact(contactsContainer, "../docs/img/contacts/email.png", "extremamenteReal@realissimomail.com");
   append.appendChild(contactsContainer);
 }
 
